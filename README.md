@@ -1,134 +1,98 @@
-# Christoffer Madsen 👋  
-**Indie tool builder · UX-focused developer · Local-first enthusiast**
+# Christoffer Madsen
+
+**Developer · Product-minded builder · Founder of [Vardir](https://github.com/vardirhq)**
 
 I build software because I want it to exist.
 
-Mostly tools, apps, and systems that value clarity, user control, and long-term usefulness over trends. I’m skeptical of SaaS-by-default, allergic to unnecessary accounts, and deeply interested in software that works offline, locally, and on the user’s terms.
+Most of my current public work lives under **[Vardir](https://github.com/vardirhq)**, where I build local-first applications, developer tools, infrastructure, and the occasional project that began as a five-minute idea and somehow acquired a release pipeline.
 
-By day I work in IT support at Elkjøp Halden.  
-By night I build things I wish already existed.
+By day I work with consumer tech and IT support at Elkjøp in Halden. Outside work, I spend most of my development time building and maintaining Vardir projects, usually with a strong bias toward user control, good UX, understandable systems, and software that can keep working without asking permission from a server.
 
----
+## What I care about
 
-## Active projects
+- **Local-first where it makes sense** — user data should remain portable and under user control.
+- **Good UX is part of the engineering** — a technically correct tool can still be miserable to use.
+- **Use the right stack for the job** — I care more about the result than defending a framework choice on the internet.
+- **Explicit systems over hidden magic** — software should be understandable enough to maintain later.
+- **Build for real use** — most of my better projects started with an actual problem I wanted solved.
 
-### 🧾 Fattern (active)
-A completely free, local-first accounting-lite app.
+## Current work
 
-- No accounts
-- No cloud
-- No SaaS
-- Full data ownership
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Send and manage invoices, track expenses, and keep control of your own data. Built for people who don’t want their finances trapped behind a login screen.
+### [Skald](https://github.com/vardirhq/skald)
 
----
+A local-first Markdown knowledge base with semantic documents, tasks, backlinks, graph navigation, extensions, GitHub integration, Mermaid, local history, and encrypted sync.
 
-### 🗂️ Geyma (active)
-A modern file manager for Linux.
+</td>
+<td width="50%" valign="top">
 
-Focused on:
-- clean, intentional UX
-- speed and clarity over feature bloat
-- small, tasteful AI assistance where it actually helps
+### [Vitni](https://github.com/vardirhq/vitni)
 
-Not trying to reinvent files. Just trying to make them less annoying.
+A structured investigation workspace for entities, relationships, evidence, sources, assertions, chronology, review, and reporting.
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### 🧠 Aplio (early)
-A job application tool with *responsible* AI use.
+### [Sindri](https://github.com/vardirhq/sindri-engine)
 
-- No auto-rejections
-- No fake “AI decided” excuses
-- Strong emphasis on human accountability and transparency
+A Rust-based 2D game engine and editor stack with Lua scripting, `wgpu`, physics, scene tooling, and local AI-assisted workflows.
 
-Built around the idea that applicants deserve to be treated like people, not spam.
+</td>
+<td width="50%" valign="top">
 
----
+### [Fattern](https://github.com/vardirhq/fattern)
 
-### 🖥️ Localhost Hub (active-ish)
-A developer tool aimed at reducing terminal dependency.
+Local-first invoicing, expenses, customers, products, and practical accounting-oriented tooling for Norwegian freelancers and small businesses.
 
-Provides a sleek, organized UI for common workflows that normally live in shell commands. Designed to lower friction without hiding what’s actually happening.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
----
+### [GESH](https://github.com/vardirhq/generic-encrypted-sync-hub)
 
-### ⚰️ Dead Repo (active-ish)
-A deliberately silly app that judges your repositories.
+A generic encrypted synchronization relay designed so clients keep control of the content key while the server moves encrypted state.
 
-Repos are treated as dead or dying projects, complete with:
-- autopsy reports
-- personality-driven commentary
-- varying degrees of brutality
+</td>
+<td width="50%" valign="top">
 
-Built mostly for fun. Surprisingly good at making people reflect on abandoned code.
+### [Hodd](https://github.com/vardirhq/hodd)
 
----
+A collection companion for tracking ownership, missing items, metadata, and the history of a collection.
 
-### 🎮 Forge2D (active-ish)
-A 2D game engine written in Rust.
+</td>
+</tr>
+</table>
 
-- Engine core in place
-- Editor in progress
-- Long-term exploration project
+You can find the rest of my current public work in **[Vardir's repositories](https://github.com/vardirhq?tab=repositories)**, including developer tools, Android utilities, search experiments, terminal tooling, and other software that escaped containment.
 
-Less about shipping a Unity killer, more about learning engine architecture the hard way.
+## How I build
 
----
+I tend to work across the whole product rather than staying neatly inside one layer. Data model, backend, UI, packaging, release automation, desktop integration, CI, and the awkward bits between them are all fair game.
 
-## How I like to build
+Technologies I use regularly include:
 
-- Tool-first, product-minded
-- Strong UX bias
-- Local-first and offline-capable by default
-- Minimal magic, explicit behavior
-- Software should respect the user’s time and data
+`Rust` · `TypeScript` · `React` · `Tauri` · `Electron` · `Kotlin` · `Node.js` · `SQLite` · `PostgreSQL` · `GitHub Actions` · `Linux`
 
-I enjoy owning the whole thing: data model → logic → UI → packaging.
+I also use AI heavily as a development tool, but I prefer systems where AI augments the workflow rather than becoming an excuse to make the product opaque. For product features, local or explicitly opt-in AI is usually more interesting to me than silently shipping user data somewhere else.
 
----
+## About this account
 
-## Tech I use
+This account is a mix of personal projects, older work, experiments, learning projects, and the occasional utility that predates Vardir.
 
-**Frontend**
-- React, Vite, Next.js
-- Tailwind CSS, Framer Motion
-
-**Backend**
-- Node.js, Express
-- MySQL / MariaDB
-- REST APIs, auth, background tasks
-
-**Desktop & tooling**
-- Electron, Tauri (case by case)
-- Local storage, IndexedDB
-- Cross-platform packaging
-
-**Infra**
-- Linux
-- Apache
-- DigitalOcean
-- Git & GitHub Actions
-
----
-
-## GitHub
-
-GitHub is a mix of:
-- portfolio
-- product distribution
-- open-source experiments
-
-Some projects are public, some are private, and not everything I build lives here.
-
----
+For current product work, **[github.com/vardirhq](https://github.com/vardirhq)** is the better place to start. Older repositories here are part portfolio, part archaeological record. Some aged gracefully. Others provide valuable evidence that software development is a process.
 
 ## Contact
 
-- 📧 Email: chris@madsens.dev  
-- 🌐 Website: https://madsens.dev  
-- 💼 LinkedIn: https://www.linkedin.com/in/christoffer-madsen-47187814/
+- **Email:** chris@vardir.no
+- **Vardir:** https://vardir.no
+- **GitHub organization:** https://github.com/vardirhq
+- **LinkedIn:** https://www.linkedin.com/in/christoffer-madsen-47187814/
 
 ---
 
